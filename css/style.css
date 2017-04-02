@@ -1,0 +1,414 @@
+html,
+body {
+	width: 1440px;
+	margin: 0 auto;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	color: #283136;
+	background-color: #ffffff;
+}
+
+.container {
+	width: 1160px;
+	margin: 0 auto;
+	color: #283136;
+	background-color: #ffffff;
+}
+
+.main-header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-top: 49px;
+	text-transform: uppercase;
+
+	outline: 1px solid red;
+}
+
+.navigation ul {
+	list-style: none;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+/*Текстовые стили общие*/
+
+h1 {
+	font-weight: 500;
+	font-size: 55px;
+	line-height: 55px;
+	color: #000000;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 45px;
+	color: #000000;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 55px;
+	line-height: 55px;
+	color: #000000;
+}
+
+/*Собственные стили для index.html*/
+
+.slider .container {
+	
+	outline: 1px solid red; 
+}
+
+.advantages .container {
+	display: flex;
+	justify-content: space-between;
+
+	outline: 1px solid red;
+}
+
+.advantages .block {
+
+	outline: 1px solid blue;
+}
+
+.about-studio .container {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+
+	outline: 1px solid red;
+}
+
+.about-studio .block {
+
+	outline: 1px solid blue;
+}
+
+.clients .container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	outline: 1px solid red;
+}
+
+.map {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	outline: 1px solid red;
+}
+
+/*Собственные стили для catalog.html*/
+
+.title {
+	display: flex;
+	justify-content: center;
+
+	outline: 1px solid red;
+}
+
+.filter {
+	display: flex;
+	
+	outline: 1px solid red;
+}
+
+.templates {
+
+
+	outline: 1px solid red;
+}
+
+.sorting {
+	display: flex;
+
+	outline: 1px solid green;
+}
+
+.sorting a {
+	text-decoration: none;
+}
+
+.sorting-items {
+	outline: 1px solid green;
+}
+
+.sorting-items li {
+	display: inline-block;
+	list-style: none;
+	text-transform: lowercase;
+}
+
+
+
+/*Sprites*/
+
+.sprite {
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-advantage-apps {
+    width: 300px;
+    height: 146px;
+    background-position: -10px -10px;
+}
+
+.sprite-advantage-present {
+    width: 300px;
+    height: 146px;
+    background-position: -10px -176px;
+}
+
+.sprite-advantage-web {
+    width: 300px;
+    height: 146px;
+    background-position: -10px -342px;
+}
+
+.sprite-browser {
+    width: 360px;
+    height: 40px;
+    background-position: -10px -508px;
+}
+
+.sprite-browser-hover {
+    width: 360px;
+    height: 40px;
+    background-position: -10px -568px;
+}
+
+.sprite-cart-icon {
+    width: 15px;
+    height: 15px;
+    background-position: -10px -628px;
+}
+
+.sprite-checkbox-off {
+    width: 23px;
+    height: 23px;
+    background-position: -10px -663px;
+}
+
+.sprite-checkbox-off-disabled {
+    width: 23px;
+    height: 23px;
+    background-position: -10px -706px;
+}
+
+.sprite-checkbox-off-hover {
+    width: 23px;
+    height: 23px;
+    background-position: -10px -749px;
+}
+
+.sprite-checkbox-on {
+    width: 27px;
+    height: 23px;
+    background-position: -10px -792px;
+}
+
+.sprite-checkbox-on-disabled {
+    width: 27px;
+    height: 23px;
+    background-position: -10px -835px;
+}
+
+.sprite-checkbox-on-hover {
+    width: 27px;
+    height: 23px;
+    background-position: -10px -878px;
+}
+
+.sprite-fb-icon {
+    width: 12px;
+    height: 22px;
+    background-position: -10px -921px;
+}
+
+.sprite-fb-icon-down {
+    width: 12px;
+    height: 22px;
+    background-position: -10px -963px;
+}
+
+.sprite-ha-logo-down {
+    width: 199px;
+    height: 68px;
+    background-position: -10px -1005px;
+}
+
+.sprite-ha-logo-hover {
+    width: 199px;
+    height: 68px;
+    background-position: -10px -1093px;
+}
+
+.sprite-insta-icon {
+    width: 21px;
+    height: 21px;
+    background-position: -10px -1181px;
+}
+
+.sprite-insta-icon-down {
+    width: 21px;
+    height: 21px;
+    background-position: -10px -1222px;
+}
+
+.sprite-map-pin {
+    width: 231px;
+    height: 190px;
+    background-position: -10px -1263px;
+}
+
+.sprite-mishka-logo-down {
+    width: 173px;
+    height: 84px;
+    background-position: -10px -1473px;
+}
+
+.sprite-mishka-logo-hover {
+    width: 173px;
+    height: 84px;
+    background-position: -10px -1577px;
+}
+
+.sprite-nerds-logo-down {
+    width: 161px;
+    height: 65px;
+    background-position: -10px -1681px;
+}
+
+.sprite-nerds-logo-hover {
+    width: 161px;
+    height: 65px;
+    background-position: -10px -1766px;
+}
+
+.sprite-pink-logo-down {
+    width: 185px;
+    height: 52px;
+    background-position: -10px -1851px;
+}
+
+.sprite-pink-logo-hover {
+    width: 185px;
+    height: 52px;
+    background-position: -10px -1923px;
+}
+
+.sprite-radio-off {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -1995px;
+}
+
+.sprite-radio-off-disabled {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -2040px;
+}
+
+.sprite-radio-off-hover {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -2085px;
+}
+
+.sprite-radio-on {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -2130px;
+}
+
+.sprite-radio-on-disabled {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -2175px;
+}
+
+.sprite-radio-on-hover {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -2220px;
+}
+
+.sprite-slide-1 {
+    width: 760px;
+    height: 431px;
+    background-position: -10px -2265px;
+}
+
+.sprite-slide-2 {
+    width: 760px;
+    height: 431px;
+    background-position: -10px -2716px;
+}
+
+.sprite-slide-3 {
+    width: 760px;
+    height: 431px;
+    background-position: -10px -3167px;
+}
+
+.sprite-sort-down {
+    width: 9px;
+    height: 9px;
+    background-position: -10px -3618px;
+}
+
+.sprite-sort-down-active {
+    width: 9px;
+    height: 9px;
+    background-position: -10px -3647px;
+}
+
+.sprite-sort-down-hover {
+    width: 9px;
+    height: 9px;
+    background-position: -10px -3676px;
+}
+
+.sprite-sort-up {
+    width: 9px;
+    height: 9px;
+    background-position: -10px -3705px;
+}
+
+.sprite-sort-up-active {
+    width: 9px;
+    height: 9px;
+    background-position: -10px -3734px;
+}
+
+.sprite-sort-up-hover {
+    width: 9px;
+    height: 9px;
+    background-position: -10px -3763px;
+}
+
+.sprite-vk-icon {
+    width: 26px;
+    height: 15px;
+    background-position: -10px -3792px;
+}
+
+.sprite-vk-icon-down {
+    width: 26px;
+    height: 15px;
+    background-position: -10px -3827px;
+}
