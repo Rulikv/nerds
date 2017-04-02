@@ -143,6 +143,8 @@ footer {
 }
 
 .sorting-items {
+	display: flex;
+	
 	outline: 1px solid green;
 }
 
