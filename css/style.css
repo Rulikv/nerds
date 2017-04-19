@@ -1,8 +1,8 @@
 html,
 body {
-	width: 1440px;
-	margin: 0 auto;
-	font-weight: normal;
+    min-width: 100%;
+    margin: 0 auto;
+    font-weight: normal;
 	font-size: 16px;
 	line-height: 24px;
 	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -10,8 +10,16 @@ body {
 	background-color: #ffffff;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.main-header {
+    background-color: #eeeeee;
+}
+
 .container {
-	width: 1160px;
+	width: 1200px;
 	margin: 0 auto;
 	color: #283136;
 	background-color: #ffffff;
@@ -20,11 +28,13 @@ body {
 .main-header .container {
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: center;
 	padding-top: 49px;
 	text-transform: uppercase;
+    background-color: #eeeeee;
 
 	outline: 1px solid red;
+    min-height: 115px;
 }
 
 .navigation ul {
@@ -33,6 +43,12 @@ body {
 
 .navigation li {
 	display: inline-block;
+}
+
+.user-block {
+    width: 160px;
+
+    outline: 1px solid green;
 }
 
 /*Текстовые стили общие*/
@@ -60,55 +76,141 @@ h3 {
 
 /*Собственные стили для index.html*/
 
+.slider {
+    margin-bottom: 80px;
+}
+
 .slider .container {
 	
-	outline: 1px solid red; 
+	outline: 1px solid red;
+    min-height: 424px; 
 }
 
 .advantages .container {
 	display: flex;
 	justify-content: space-between;
+    align-items: flex-end;
 
 	outline: 1px solid red;
+    min-height: 430px;
 }
 
 .advantages .block {
+    width: 300px;
+    margin-right: 100px;
 
 	outline: 1px solid blue;
+    min-height: 283px;
 }
 
 .about-studio .container {
 	display: flex;
 	justify-content: space-around;
-	align-items: flex-end;
+	align-items: flex-start;
 
 	outline: 1px solid red;
+    min-height: 527px;
 }
 
 .about-studio .block {
+    margin-top: 37px;
 
-	outline: 1px solid blue;
+	outline: 1px solid yellow;
+    min-height: 434px;
+}
+
+.block-info {
+    width: 720px;
+    margin-right: 60px;
+}
+
+.block-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features {
+    display: flex;
+    width: 420px;
+    margin: auto;
 }
 
 .clients .container {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+    margin-bottom: 80px;
 
 	outline: 1px solid red;
+    min-height: 182px;
 }
 
 .map {
-	width: 1440px;
-	margin: 0 auto;
+    position: relative;
 }
 
-footer {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.map img {
+    width: 100%;
+}
 
-	outline: 1px solid red;
+.pin {
+    font-size: 0;
+}
+
+.address {
+    position: absolute;
+    bottom: 85px;
+    left: 190px;
+    width: 319px;
+    color: #000000;
+    background-color: #ffffff;
+
+    min-height: 308px;
+}
+
+/*Универсальные стили для Footer*/
+
+footer {
+    outline: 1px solid red;
+}
+
+footer .container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    margin-bottom: 50px;
+
+	outline: 1px solid blue; 
+}
+
+.social-apps {
+    width: 260px;
+
+    outline: 1px solid green;
+}
+
+.discount {
+    width: 640px;
+
+    outline: 1px solid green;
+}
+
+.discount > p {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.discount span {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #444444;
+    background-color: #ffffff; 
 }
 
 /*Собственные стили для catalog.html*/
